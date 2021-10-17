@@ -68,13 +68,6 @@ axes(handles.axes4);
 imshow(x1);
 handles.x1 = x1;
 
-% Update handles structure
-
-guidata(hObject, handles);
-
-set(handles.status_size, 'String', '-');
-set(handles.status_size, 'Background', 'white');
-set(handles.status_size, 'Foreground', 'black');
 
 
 % --- Executes on button press in pushbutton2.
